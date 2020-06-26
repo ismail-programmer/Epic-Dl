@@ -1,0 +1,60 @@
+
+
+Built with javascript / python only.
+
+This is a website for a company which is offering anycast ddos protection
+
+Front-end is almost done, html/css of pages will be shared.
+
+Home page:
+- User sign in
+
+Pricing page:
+
+- Pricing calculator needs to be functional
+
+Contact us page:
+
+- Functioning contact us form
+
+Build and design user / admin cp
+-Admin cp 
+ -Need to be able to add credit / remove credit / invoice
+ -Need to be able to add / remove / edit services
+ -Need ticketing system for managing support
+ -Need user control functions (delete etc)
+-User cp 
+- Need current services / pending services
+ -Need available balance
+ -Need list of external ip addresses and allow customers to set forwarding ip 
+(this should simply change a service to pending or create a ticket to look at the account for us to manually 
+edit the ip and change service / ticket to complete).
+ -Need Payment history / Add balance / Withdraw Balance (paypal integration)
+ -Need ticketing system for clients
+
+
+Beta
+--Function to register but not activate accounts for use
+--Function to selectively allow clients to use our products
+--Function to allow all clients to use our products
+
+
+----------------------------------------------------------------------
+More Details
+----------------------------------------------------------------------
+
+
+- Must be able to deposit credits.
+
+- Must be able to deposit credits automatically each month.
+
+- Products would just be anycast ddos protection for which they will automatically be given a price depending on the 
+bandwidth tier they reach. (It will need to be able to be adjusted by admins for each client)  
+
+- Users who register during beta must be able to receive a permanent discount which can be set by admin. 
+We would like to be able to do different rounds of promotions so it should be adjustable and have different groups for users 
+who sign up for different promotions.
+
+-Under services for ddos protection it should display tiered pricing for example 
+1TB x$ 10TB y$ 100TB z$ and show what the user has currently used. 
+We will also need to have time for how recently bandwidth usage was updated.

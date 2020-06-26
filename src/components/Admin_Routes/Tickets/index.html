@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div className="row">
+            <div className="container mt-5">
+                <div className="row mt-5 mb-5">
+                    <div className="col-md-6 col-sm-12 text-white">
+                        <form method="POST" enctype="multipart/form-data">
+                            <input type="hidden" name="csrfmiddlewaretoken" defaultValue="z1635y4tJ2QlppGCCPHSgFTbqcSHLt8ZSnajt3eNKcPvS8ueb7hzAh13H4Pm94se"/>
+                            <fieldset className="form-group">
+                                <legend className="border-bottom mb-4">Add Service</legend>
+    <div id="div_id_service_name" className="form-group"> <label htmlFor="id_service_name" className=" requiredField">
+                    Service name<span className="asteriskField">*</span> </label> <div className=""> <input type="text" name="service_name" maxlength="100" className="textinput textInput form-contnrol" required="" id="id_service_name"/> </div> </div> <div id="div_id_service_amount" className="form-group"> <label htmlFor="id_service_amount" className="">
+                    Service Amount
+                </label> <div className=""> <input type="number" name="service_amount" step="0.01" className="numberinput form-control" id="id_service_amount"/> </div> </div> <div id="div_id_service_picture" className="form-group"/> <label htmlFor="id_service_picture" className="">
+                    Service picture
+                </label> <div className=""> <input type="file" name="service_picture" accept="image/*" className="clearablefileinput" id="id_service_picture"/> </div> </div> <div id="div_id_service_detail" className="form-group"/> <label htmlFor="id_service_detail" className="">
+                    Service detail
+                </label> <div className=""> <textarea name="service_detail" cols="40" rows="10" maxlength="1000" className="textarea form-control" id="id_service_detail"/></textarea> </div> </div>
+    
+                            </fieldset>
+                            <div className="container-login100-form-btn">
+                                <button className="fa-pull-right login100-form-btn" type="submit">Save</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
+
+
